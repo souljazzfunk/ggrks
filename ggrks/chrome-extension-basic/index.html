@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>【超入門】Google Chrome拡張機能の基礎と実践【ゼロ初級】 · ほぼ週刊ググレカス</title>
+<link rel="stylesheet" href="/ggrks/css/site.css">
+</head>
+<body>
+<header class="site-header">
+<p class="site-title"><a href="/ggrks/">ほぼ週刊ググレカス</a></p>
+<p class="site-desc">貴方もおググりになられてはいかがかしら</p>
+</header>
+<main>
+
+<article>
+<h1>【超入門】Google Chrome拡張機能の基礎と実践【ゼロ初級】</h1>
+<p class="meta">
+<time datetime="2021-03-25T18:44:05">2021-03-25 18:44</time>
+ · #ほぼ週刊ググレカス, chrome extensions, EdTech
+</p>
+
+<figure class="eyecatch">
+<img src="/ggrks/images/banners/2021/03/b1908d351571bcdf9bbe330072cfab3c.png" alt="【超入門】Google Chrome拡張機能の基礎と実践【ゼロ初級】">
+</figure>
+
+<div class="body">
+<p>あまりコンピュータやインターネットに詳しくない人に向けて、<a href="https://www.youtube.com/watch?v=pdk1Zz-ewQw&amp;t=580s">Google Chrome拡張機能について説明したり、便利なものを紹介する機会</a>を頂きました。イベントの予習・復習用に本稿をお役立て頂ければ幸いです！</p>
+<h2 id="google-chromeグーグルクロームとは">Google Chrome（グーグル・クローム）とは</h2>
+<p>まずはChromeとは何か？から説明します。</p>
+<p>以下、できるだけ平易な言葉で説明を試みます。小難しい説明や専門用語を読みたくない人は、<strong>色のついた囲み記事だけを読めばOK</strong>です！では、わかりやすさを優先するため正確性を欠いた表現をしますが、あしからず。</p>
+<p>Chromeとは、グーグルという会社が作っている、インターネットを見るためのプログラムです。他にも別の会社が同じようなプログラムを作って競争していますが、本稿執筆時点ではGoogle Chromeが世界で一番多く使われています。</p>
+<p>ここで、「インターネットを見るためのプログラム」のことを「web browsers（ウェブブラウザ）」と呼びます。このブログでもよく出てくる用語なので、覚えておきましょう。</p>
+<p>では、すこし専門用語や固有名詞が分かる人むけの説明です。読まなくても大丈夫。</p>
+<p>Chromeとは、Googleが提供するWebブラウザで、PC以外にもスマホやタブレット等で利用できるアプリが無料で配布されています。Webブラウザは、AppleのSafariやMicrosoftのEdgeのように他社からも同様のものが提供されていて、シェア争いが続いています。本稿執筆時点ではGoogle Chromeが世界で一番多く使われています。</p>
+<h3 id="chromeの何が凄いのか">Chromeの何が凄いのか</h3>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2021/03/image-22-1-1024x551.jpg" alt=""></p>
+<p><em>Google Chrome発表当時の公式ブログ記事。昔のGoogleロゴが渋い！</em></p>
+<p>もう少し詳しく。読まなくていいです。笑</p>
+<p>Microsoft Internet Explorerの勢いが鈍り、Mozilla Firefoxが台頭していた2008年、Googleは新しいWebブラウザとしてChromeを発表しました。AppleのWebkitエンジンやFirefoxのコンポーネント等を利用してオープンソースプロジェクトとして開発されたChromeは、その洗練された簡素なインタフェイスやページ読み込みの速さで他のブラウザを圧倒し、瞬く間に主流のWebブラウザとなりました。特に当時Internet Explorerが実現できなかったWeb規格への準拠や、「サンドボックス」と呼ばれる仕組みによるクラッシュ耐性などがWeb技術に革命を起こしたとされ、発表後10年以上たった今でもブラウザ市場を席巻しています。</p>
+<h2 id="chrome-extensionsクローム拡張機能とは">Chrome extensions（クローム拡張機能）とは</h2>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2021/03/image-22-1024x353.png" alt=""></p>
+<p>では今回の本題であるChrome拡張機能とはなんでしょう？</p>
+<p>クローム拡張機能は小さなプログラムのことです。この小さなプログラムを使えば、クロームにもともと備わっていない機能を追加して、インターネットをより便利に見ることができます。</p>
+<p>Chromeの拡張機能は小さなプログラムのことで、ウェブの閲覧（ブラウジング）体験をカスタマイズするためのものです。拡張機能はHTMLやCSS、javascriptといったウェブ技術で作られており、ユーザはChromeの機能や挙動を自分の好みに仕立て上げることができます。</p>
+<h3 id="すべて無料">すべて無料</h3>
+<p>本稿執筆時点で入手できるChrome拡張機能は、すべて無料です。<br>
+（<a href="https://developer.chrome.com/docs/webstore/cws-payments-deprecation/">2020年9月に、Chrome Web Storeにおける課金廃止がアナウンスされました</a>）</p>
+<h3 id="googleが作っているとは限らない">Googleが作っているとは限らない</h3>
+<p>いまやGoogle Chromeというブラウザはひとつの生態系となっており、その上で動く小さなプログラムを提供する個人や企業がたくさんいます。つまり、Google社が提供する拡張機能もあれば、そうでないものもあります。</p>
+<p>すべての拡張機能は公開前にGoogleによって審査されますが、中には怪しげなものもあります。注意しましょう。</p>
+<h3 id="動くのはパソコン上のみ">動くのはパソコン上のみ</h3>
+<p>基本的には、スマホやタブレット用のブラウザでは拡張機能は動きません。（例外はあります）</p>
+<h3 id="google-chrome以外でも使える">Google Chrome以外でも使える</h3>
+<p>これは意外と知られていないかもしれません。Google Chromeがメインのブラウザではない人も、Chrome用の拡張機能を転用したり、または同等の機能を持ったそのブラウザ専用の拡張機能を使うことができます。すべての拡張機能がすべてのブラウザで動くわけではありませんが、例えば下記のようなブラウザでは、たいていの拡張機能が使えるようです。</p>
+<ul>
+<li>Firefox</li>
+<li>Safari</li>
+<li>Brave</li>
+<li>Edge</li>
+<li>Opera</li>
+<li>Linux用のブラウザ各種</li>
+</ul>
+<h2 id="拡張機能をインストールする">拡張機能をインストールする</h2>
+<p>正体がわかったところで、さっそくパソコンのChromeに拡張機能をインストールしてみましょう。</p>
+<p><a href="https://support.google.com/chrome_webstore/answer/2664769?hl=ja&amp;ref_topic=6238977">公式ドキュメント</a>を読めば誰にでも？できなくはないのですが、画像もないし分かりにくいので、スライドを作りました。例として今回は、Google Arts &amp; Culture という拡張機能を一緒にインストールしてみましょう！</p>
+<iframe allowfullscreen="true" frameborder="0" height="569" mozallowfullscreen="true" src="https://docs.google.com/presentation/d/e/2PACX-1vQXJ8LM3aQkmRCsBG-a3OIfNKJJQzlIn2eErZ9xGQOsmOca3TX6GEQonMkGutYZ8NKvGHahinqAK2XA/embed?start=false&amp;loop=false&amp;delayms=3000" webkitallowfullscreen="true" width="960"></iframe>
+<h2 id="拡張機能の使い方">拡張機能の使い方</h2>
+<p>拡張機能は多種多様です。世界中のプログラマー達が技術の粋を集めて作ったものから、その辺のオタクが趣味で作った全く意味のわからないもの、ちゃんと動かないものまで千差万別なので、それぞれ使い方が違います。簡単に分類します。</p>
+<h3 id="インストールするだけでいいもの">インストールするだけでいいもの</h3>
+<p>これはインストールするだけで、あなたが何かをする必要はありません。先ほどのスライドで例としてインストールした Google Arts &amp; Culture がそのいい例で、これはブラウザの新規タブやウインドウを開いた時に世界の名画を見せてくれます。</p>
+<h3 id="クリックして使うもの">クリックして使うもの</h3>
+<p>たいていの拡張機能は、このスタイルのものです。クリックするとメニューが開いたり、ブラウザの画面内に表示が出たりします。便利なボタンがひとつ増えたぞ、みたいな感覚で使えます。</p>
+<h3 id="キーボードショートカットで使うもの">キーボードショートカットで使うもの</h3>
+<p>キーボードからの操作を前提としたものもあります。ブラウザのタブやウインドウを操作するものや、Googleの検索画面やGoogleドキュメントに機能を追加するものにこのスタイルが多いです。</p>
+<h3 id="他のサイトと連動するもの">他のサイトと連動するもの</h3>
+<p>ログインが必要なものが多いです。わざわざ他のサイトを開いて別タブで作業する手間を省くために、ブラウザのメニューから小さなウインドウを出して操作ができるようなものが多いです。</p>
+<h2 id="chrome拡張機能をたくさん入れるとパソコンの動作が重くなる">Chrome拡張機能をたくさん入れるとパソコンの動作が重くなる？</h2>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2021/04/image-4.png" alt=""></p>
+<p>初心者から最も多い質問の一つがこれです。結論から言うと、Google Chromeの動作が遅くなる可能性が高いです。機能が重複するものをインストールした場合は、比較検討して不要なものは削除するか、設定画面でOFFにしておきましょう。</p>
+<p>拡張の機能の設定画面を開くには、<br>
+右上にある「点が3つ縦に並んだ」アイコン（<img src="https://lh3.googleusercontent.com/E2q6Vj9j60Dw0Z6NZFEx5vSB9yoZJp7C8suuvQXVA_2weMCXstGD7JEvNrzX3wuQrPtL=w36-h36" alt="その他">） <img src="https://lh3.googleusercontent.com/SaY5lqCwN7kppnS546l9ys-E2sZftTTIHjBrdV-WsGPIhGjaxcEXjfgdIfW_UNG7Sw0=w26-h36" alt="次に"> [<strong>その他のツール</strong>] <img src="https://lh3.googleusercontent.com/SaY5lqCwN7kppnS546l9ys-E2sZftTTIHjBrdV-WsGPIhGjaxcEXjfgdIfW_UNG7Sw0=w26-h36" alt="次に"> [<strong>拡張機能</strong>] をクリックします。</p>
+<p>厳密には拡張機能の「数」が問題なのではなくて中身の問題ですが、確率論として沢山インストールすればそれだけ「重いやつ」に当たりやすくなる、ということだと思います。とは言え、数百とか数千の拡張機能をインストールすれば、やはりそれなりにChromeの起動などに（著しく）影響し始めると思います。</p>
+<h2 id="教師のためのchrome拡張機能スターターパックリンク集">「教師のためのChrome拡張機能スターターパック」リンク集</h2>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2021/03/banner_CE_starter_pack.png" alt="教師のためのChrome拡張機能スターターパック"></p>
+<p>拡張機能ソムリエ、らいけんが調査と実験を重ねてリストアップした、「とりあえずこれを入れておけば授業準備も授業中も何とかなるだろう」という選り抜きの拡張機能リンク集です。「教師のための」と銘打っていますが、どんな仕事にも役に立つものばかりですので、ぜひ使ってみてください！</p>
+<p>このリンク集は、3月27日開催の無料イベント「<a href="https://twitter.com/mocchee_HK/status/1372938769087664136">Zoomで実践シェア会 第10弾 〜Google拡張機能で授業を楽しく！時短テク！〜</a>」のオープニングセッションでお配りします！見に来てね。</p>
+<h3 id="zoomで実践シェア会お申し込みはこちら">「Zoomで実践シェア会」お申し込みはこちら！</h3>
+<p><strong>Zoomで実践シェア会 申込みフォーム（無料）</strong></p>
+<p>2021年3月27日（土）21:00〜22:30（香港時間 UTC+8)<br>
+<a href="https://bit.ly/38sGFlc">各地域のタイムゾーンで開催時刻を確認する</a></p>
+<p>開催日時は香港時間です。日本の22時スタートです。</p>
+<p>追記：シェア会へのご参加ありがとうございました！<a href="https://www.youtube.com/watch?v=pdk1Zz-ewQw&amp;t=580s">当日の録画が公開されています</a>ので、以下の記事とあわせてご覧ください。</p>
+<p><a href="https://laiken.net/ggrks/10-chrome-extensions-for-teachers/">https://laiken.net/ggrks/10-chrome-extensions-for-teachers/</a></p>
+<h2 id="参考文献">参考文献</h2>
+<ul>
+<li><a href="https://www.theverge.com/2018/9/2/17811844/google-chrome-browser-10-years-history">Google’s Chrome browser is now 10 years old</a>. (2018). Retrieved 16 March 2021, from <a href="https://www.theverge.com/2018/9/2/17811844/google-chrome-browser-10-years-history">https://www.theverge.com/2018/9/2/17811844/google-chrome-browser-10-years-history</a></li>
+<li><a href="https://web.archive.org/web/20080902000920/https://googleblog.blogspot.com/2008/09/fresh-take-on-browser.html">Official Google Blog: A fresh take on the browser</a>. (2008). Retrieved 16 March 2021, from <a href="https://googleblog.blogspot.com/2008/09/fresh-take-on-browser.html">https://googleblog.blogspot.com/2008/09/fresh-take-on-browser.html</a></li>
+<li><a href="https://support.google.com/chrome_webstore/answer/2664769?hl=ja&amp;ref_topic=6238977">拡張機能をインストールして管理する - Chrome ウェブストア ヘルプ</a>. (2021). Retrieved 16 March 2021, from <a href="https://support.google.com/chrome_webstore/answer/2664769?hl=ja&amp;ref_topic=6238977">https://support.google.com/chrome_webstore/answer/2664769?hl=ja&amp;ref_topic=6238977</a></li>
+</ul>
+
+</div>
+</article>
+
+</main>
+</body>
+</html>

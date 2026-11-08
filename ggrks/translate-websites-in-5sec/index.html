@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>5秒でウェブサイト全体を翻訳する方法 · ほぼ週刊ググレカス</title>
+<link rel="stylesheet" href="/ggrks/css/site.css">
+</head>
+<body>
+<header class="site-header">
+<p class="site-title"><a href="/ggrks/">ほぼ週刊ググレカス</a></p>
+<p class="site-desc">貴方もおググりになられてはいかがかしら</p>
+</header>
+<main>
+
+<article>
+<h1>5秒でウェブサイト全体を翻訳する方法</h1>
+<p class="meta">
+<time datetime="2023-08-26T12:33:24">2023-08-26 12:33</time>
+ · #ほぼ週刊ググレカス, chrome extensions
+</p>
+
+<figure class="eyecatch">
+<img src="/ggrks/images/banners/2023/08/blog-banner-1280x720-1.png" alt="5秒でウェブサイト全体を翻訳する方法">
+</figure>
+
+<div class="body">
+<p>AI時代に入って、英語の文献を速読できることがこれまで以上に重要になってきました。外国語で書かれているというだけで、情報収集をあきらめていませんか。今は非常に便利な翻訳ツールがたくさんあるので、言語の壁が非常に薄くなりました。もう「英語だから読めません」という言い訳は通用しません。</p>
+<p>今回は、目の前に外国語で書かれたウェブサイトがある場合に手早く翻訳する方法をご紹介します。</p>
+<h2 id="ダメな例">ダメな例</h2>
+<p>英語に限らず、スペイン語、中国語、その他色々な言語で書かれたウェブ上の情報をどうやって読んでいますか。以下はよくある手順の典型例ですが、筆者には大変に非効率に見えます。</p>
+<p>テキストをマウスで選択して、コピーして、DeepLのタブを新たに開き、テキストを貼り付けて、翻訳ボタンを押す。</p>
+<p>本稿では詳しく採り上げませんが、ウェブサイト上の一部分だけを翻訳したい場合は<a href="https://chrome.google.com/webstore/detail/deepl-translate-reading-w/cofdbpoegempjloogbagkncekinflcnj">DeepLのChrome拡張機能</a>を使いましょう。サイト全体をざっと読みたい場合は、以下の方法でウェブサイトごと翻訳するのがおすすめです。</p>
+<h2 id="ウェブサイトごと翻訳する">ウェブサイトごと翻訳する</h2>
+<p>画像や書式、レイアウトはそのままで言語だけ翻訳すれば、ストレスなく読み進めることができます。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2023/08/translate3_comp30-1024x813.jpg" alt=""></p>
+<h2 id="5秒でできるウェブ翻訳">5秒でできるウェブ翻訳</h2>
+<p>原文の細かいニュアンスを汲み取りたいときには向きませんが、多少の誤訳があっても記事の概要を素早く把握したい時などには、こちらの方法がおすすめです。</p>
+<h3 id="google-chromeを予め設定しておく">Google Chromeを予め設定しておく</h3>
+<p>Chromeの設定 &gt; サーチエンジンの管理 &gt; 追加ボタン で以下の画面が表示されます。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2023/08/image-4-1024x700.png" alt=""></p>
+<p>3箇所入力するフォームがあります。</p>
+<ol>
+<li>Search engine
+ここは後で見て何の設定か分かるように名前をつけておくところです。今回はGoogle翻訳を使うので、そんな感じの名前を入れておきます。</li>
+<li>Shortcut
+ここで設定した文字列を使って、後でGoogle翻訳（または任意のウェブ検索）を素早く呼び出すことができます。自分が覚えられて、かつ短い英数字の組み合わせを書きましょう。上の例では「tr」の2文字が書かれていますが、別に「abc」でも何でも構いません。</li>
+<li>URL with %s in place of query
+Google翻訳の翻訳結果のページのURLを入力します。「%s」という記号は、後で翻訳したいサイトのURLに置換するためのワイルドカードです。</li>
+</ol>
+<p>上記の手順3のURLの部分は、以下の1行をコピーして貼り付けてください。</p>
+<pre tabindex="0"><code>https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=%s
+</code></pre><p>上記で色を付けた部分の「sl」はsource language（翻訳元の言語）、「tl」はtarget language（翻訳先の言語）、そして「u」がサイトのURLのことです。たぶん。</p>
+<p>つまり「ウェブサイトの言語を自動判定し、日本語に変換する」という設定になっています。保存ボタンを押して設定完了です。</p>
+<h3 id="5秒でウェブ翻訳してみる">5秒でウェブ翻訳してみる</h3>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2023/08/translate2_comp30-1024x715.jpg" alt=""></p>
+<p>翻訳したいページをChromeで開いたら、いよいよ翻訳してみましょう。マウスを使うと遅くなるので、以下の順にキーボードショートカットを使います。</p>
+<ol>
+<li>⌘-LでURLを選択（WindowsはCtrl-L、以下同様）</li>
+<li>⌘-CでURLをコピー</li>
+<li>⌘-Tで新規タブを開く</li>
+<li>アドレスバーに <code>tr␣</code> と打ち込む（半角スペースも含める）
+これは、Chromeの設定の手順2で決めた文字列＋半角スペースです。</li>
+<li>続けて⌘ｰVでURLを貼り付け</li>
+<li>リターンキーをたーん！と叩く
+そっと押しても構いません。</li>
+</ol>
+<p>キーボード操作に習熟している人なら、ここまで5秒もかからないでしょう。マウスをできるだけ使わずにコンピュータの操作を効率化することにご興味ありましたら、こちらの記事もどうぞ。</p>
+<p><a href="https://laiken.net/ggrks/chrome-without-mouse-0a/">https://laiken.net/ggrks/chrome-without-mouse-0a/</a></p>
+<h2 id="20秒くらいでできるウェブ翻訳">20秒くらいでできるウェブ翻訳</h2>
+<p>上記の方法はGoogle翻訳の画面を開いてURLを入力する、という手間を省くためのショートカットを使っていることがポイントです。ショートカットを使わない場合の手順がこちらです。<a href="https://translate.google.com/?sl=ur&amp;tl=en&amp;op=websites">この画面</a>を開くと、ウルドゥ語から英語に変換する画面になります。マウスクリックで言語を選ぶことができます。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2023/08/image-3-1024x471.png" alt=""></p>
+<h2 id="chrome拡張機能を使う方法">Chrome拡張機能を使う方法</h2>
+<p>マウスを使ってもう少し速く翻訳するには、こちらの方法が良いかもしれません。</p>
+<ol>
+<li><a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb">Google翻訳のChrome拡張機能</a>をインストールする。</li>
+<li>翻訳したいページを右クリック</li>
+<li>「このサイトを翻訳」的なメニューを選ぶ</li>
+</ol>
+<p>ただし、この方法だと翻訳後のサイトを共有することができません。</p>
+<h2 id="ウェブ上の情報の6割近くが英語">ウェブ上の情報の6割近くが英語</h2>
+<p><a href="https://www.statista.com/statistics/262946/most-common-languages-on-the-internet/">ウェブ上のテキスト情報の中では英語の情報が最も多く58.8％を占め、日本語は全体の3％程度</a>です。したがって、何でもまずは英語で検索するべきなのですが、残念ながら21世紀になっても依然として<a href="https://www.ef.com/wwen/epi/regions/asia/japan/">日本人の英語力は低く</a>、英語は今も情報収集における大きな障壁となっています。</p>
+<p>この日本人の長年の悩みがAIで解決するかもしれません。プロンプトの書き方を工夫することで、英語で文献を検索し、結果のまとめを日本語で表示することが可能になります。この方法は拙著「<a href="https://amzn.to/45LZk6S">教師のためのChatGPTガイド</a>」で解説しています。</p>
+
+</div>
+</article>
+
+</main>
+</body>
+</html>

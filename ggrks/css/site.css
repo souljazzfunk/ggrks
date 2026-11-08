@@ -1,0 +1,25 @@
+:root { color-scheme: light dark; }
+body { margin: 0 auto; max-width: 44rem; padding: 1.5rem 1.2rem 3rem; font: 18px/1.7 system-ui, sans-serif; }
+a { color: #0b57d0; }
+.site-header { border-bottom: 1px solid #ccc; margin-bottom: 1.5rem; padding-bottom: .75rem; }
+.site-title { font-size: 1.25rem; font-weight: 700; margin: 0; }
+.site-title a { color: inherit; text-decoration: none; }
+.site-desc { margin: .25rem 0 0; color: #555; font-size: .95rem; }
+.meta { color: #555; font-size: .95rem; }
+.post-list { list-style: none; padding: 0; }
+.post-list li { margin: .4rem 0; }
+.post-list time { display: inline-block; width: 8rem; color: #555; font-variant-numeric: tabular-nums; }
+.page-nav { margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap; }
+.body img { max-width: 100%; height: auto; }
+.body table { border-collapse: collapse; width: 100%; font-size: .92rem; }
+.body th, .body td { border: 1px solid #ccc; padding: .35rem .5rem; vertical-align: top; }
+.body pre, .body code { font-family: ui-monospace, monospace; font-size: .9rem; }
+.body pre { overflow: auto; padding: .8rem; background: #f4f4f4; }
+.body blockquote { margin-left: 0; padding-left: 1rem; border-left: 3px solid #ccc; }
+.eyecatch { margin: 1rem 0 1.25rem; }
+.eyecatch img { max-width: 100%; height: auto; display: block; }
+.post-card { display: flex; gap: .9rem; align-items: flex-start; margin: .75rem 0; }
+.post-card .thumb { flex: 0 0 8.5rem; }
+.post-card .thumb img { width: 8.5rem; height: 4.8rem; object-fit: cover; display: block; background: #eee; }
+.post-card .card-text time { display: block; width: auto; margin-bottom: .15rem; }
+.post-card .card-text a { font-weight: 600; }

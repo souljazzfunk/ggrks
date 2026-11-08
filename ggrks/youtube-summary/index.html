@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIの使い方：2時間の英語の討論を人物ごとに日本語で要約する · ほぼ週刊ググレカス</title>
+<link rel="stylesheet" href="/ggrks/css/site.css">
+</head>
+<body>
+<header class="site-header">
+<p class="site-title"><a href="/ggrks/">ほぼ週刊ググレカス</a></p>
+<p class="site-desc">貴方もおググりになられてはいかがかしら</p>
+</header>
+<main>
+
+<article>
+<h1>AIの使い方：2時間の英語の討論を人物ごとに日本語で要約する</h1>
+<p class="meta">
+<time datetime="2023-11-26T17:46:20">2023-11-26 17:46</time>
+ · #ほぼ週刊ググレカス, AI, chrome extensions
+</p>
+
+<figure class="eyecatch">
+<img src="/ggrks/images/banners/2023/11/blog-banner-1280x720-1.png" alt="AIの使い方：2時間の英語の討論を人物ごとに日本語で要約する">
+</figure>
+
+<div class="body">
+<p>YouTubeの内容をAIで要約する方法をご紹介します。2時間に渡る長い動画でも、英語でも、1分もかからずに要約が終わる大変便利な方法です。誰でも無料で利用できるのでぜひお試しください。</p>
+<p>ChatGPTの衝撃的な登場から1年がたった今、これは特に目新しい手法ではありません。重要なことは、今はごく普通の人でも2時間の英語の討論を、AIで気軽に、ものの数十秒で翻訳・要約して把握できるということです。「一般人でもこのくらいできて当然」なのです。</p>
+<h2 id="用意するもの">用意するもの</h2>
+<ul>
+<li>Chrome拡張機能「<a href="https://chromewebstore.google.com/detail/youtube-summary-with-chat/nmmicjeknamkfloonkhhcjmomieiodli">YouTube Summary with ChatGPT &amp; Claude</a>」</li>
+<li><a href="https://claude.ai/">Claude</a>のアカウント</li>
+<li>要約したいYouTube動画</li>
+</ul>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2023/11/Screenshot-11-26-2023-at-04.02-PM_comp75-1024x482.jpg" alt=""></p>
+<p>Chrome拡張機能のインストール後にYouTube動画を開くと、上図のように右上に要約の機能が表示されます。ChatGPTのアイコンをクリックすると、ChatGPTがブラウザの新しいタブで開かれ、動画を文字起こしした内容がプロンプトとして与えられ、自動で要約が始まります。</p>
+<h3 id="今回取り上げたyoutube動画">今回取り上げたYouTube動画</h3>
+<p>今回取り上げたYouTube動画はこちらです。</p>
+<p><a href="https://www.youtube.com/watch?v=EGDG3hgPNp8">AI: Grappling with a New Kind of Intelligence - YouTube</a></p>
+<p><a href="https://www.youtube.com/watch?v=EGDG3hgPNp8">https://www.youtube.com/watch?v=EGDG3hgPNp8</a></p>
+<p>2023年11月下旬、ChatGPTの発表からちょうど1年後にあたる時期に、AIのエキスパートたちによってその未来や安全性についての討論がされました。素晴らしい内容なので、できれば週末にでも時間を作って、全編をじっくり見ていただきたいと思います。忙しくてそんな余裕がない人は、以下の方法で要約して学んでみてください。</p>
+<h2 id="必要な設定">必要な設定</h2>
+<h3 id="長時間動画の場合はai-modelをclaudeにする">長時間動画の場合はAI ModelをClaudeにする</h3>
+<p>ここでは2023年11月のWorld Science Festivalで行われたAIに関する討論のビデオを見ていますが、全部で1時間55分もあり、しかも非常によく喋るゲストばかりなので膨大な文字数になります。本稿執筆時点のChatGPT（GPT-4）では処理しきれませんでした。</p>
+<p>そこで、利用するAIをClaudeに切り替えます。歯車のアイコンから開ける以下の設定画面で行います。「AI Model」をデフォルトのGPT-3.5から「Claude (Anthropic)」に変更するだけです。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2023/11/image-1024x345.png" alt=""></p>
+<p>Claudeは（現時点では）ChatGPTよりも多くのテキスト情報を扱うことができ、本1冊分をインプットして間違い探しをさせたりできるほどの能力があります。これで2時間分の討論の内容をまるごとAIにわたす準備が出来ました。</p>
+<h3 id="どのような要約にしたいのかをプロンプトで書く">どのような要約にしたいのかをプロンプトで書く</h3>
+<p>同じ設定画面で、Prompt for Summaryというフォームがあります。そこにAIに対する命令を書きましょう。動画の文字起こしテキストをどのように処理してほしいのかをプロンプトとして書きます。</p>
+<p>今回、この動画を要約するために筆者は下記のようなプロンプトにしました。実際の処理では、このプロンプトの後に動画の文字起こしテキストが追加され、AIにプロンプトとして渡されます：</p>
+<pre tabindex="0"><code>Summarize the following in 10 bullet points for each of three guests (Yann LeCun, Sébastien Bubeck, and Tristan Harris in this order) in this event, write in Japanese.
+</code></pre><p>ClaudeもChatGPTと同様に英語でプロンプトを書いた方が品質が上がるであろうことが容易に想像できるので、プロンプトは英語で書くと良いでしょう。<strong>多少つづりや文法が間違っていても、AIはちゃんと理解してくれます。あまり自分の英語力に自信がなくてもどんどん英語を書くようにしてください</strong>。</p>
+<p>ここでは、討論のモデレーターを除く3人のゲストそれぞれの意見を箇条書きでまとめたかったので、そのようなプロンプトを書きました。最後に「日本語で書いてね」と言っておけば、大抵の場合は日本語で書いてくれます。そしてAIにもう少し具体的な文脈を与えるために、ゲストの名前と登場する順番を書いておきました。</p>
+<h2 id="2時間の英語の討論を人物ごとに日本語で要約した結果">2時間の英語の討論を人物ごとに日本語で要約した結果</h2>
+<p>以下がClaudeで要約した内容です。すこし問題がありますが、どこが問題かお分かりですか。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2023/11/image-1-636x1024.png" alt=""></p>
+<p>問題は、10個の箇条書きを書くように指示したのに、いずれも10個に満たない情報しか書かれていないことです。</p>
+<p>ここで期待外れな結果が出たからといって「なんだ、AIなんてダメじゃん」と結論を急がないようにしましょう。この次のステップが最も重要なのです。</p>
+<h3 id="aiチャットボットは2つ目のプロンプトが重要">AIチャットボットは「2つ目のプロンプト」が重要</h3>
+<p>ChatGPTやClaudeのようなAIチャットボットはその名の通り「チャット」をすることでその本領を発揮します。ですから<strong>最初の回答が不十分だと思っても、対話の中であなたが望む結果が出るように誘導していくようにしてください</strong>。これができるだけで、一気に「AIが使える人」になれます。</p>
+<p>筆者が次に書いたプロンプトがこちらです：</p>
+<pre tabindex="0"><code>Add more details and make it a list of 10 summary items in total for each of the three guests.
+</code></pre><p>もっと詳細を追加して、ゲスト1人あたり10個のリストになるようにしてね、という意味です。この追加のプロンプトに対する回答は以下のようになりました。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2023/11/image-2-492x1024.png" alt=""></p>
+<p>素晴らしい要約が出来ました。筆者はこの動画を2回は通して見たので、この要約がかなり正確であることがわかります。ここまで、トータルで5分もかかっていません。この程度のことなら、誰でも簡単にできる時代になりました。</p>
+<h2 id="日本人が創業した話題のスタートアップglaspについて">日本人が創業した話題のスタートアップ、Glaspについて</h2>
+<p>この拡張機能を開発したGlaspという会社について以下に簡単に紹介します。Glaspは今回ご紹介したYouTube要約ツールなど比較にならないほど面白くて画期的なツールを開発しています。以下はGPT-4がBingで検索して書いたものをDeepLで翻訳してできた文章なので、そのつもりでお読みください。</p>
+<p>グラスプは知識の民主化に焦点を当てた革新的な新興企業である。Glaspのコンセプトはシンプルかつ強力である。Glaspのコンセプトはシンプルでありながら強力である。ウェブ上の重要な情報をハイライトして整理する機能を活用し、ユーザーが各分野の他者の洞察にアクセスして学ぶことを可能にする。</p>
+<p>共同創業者の一人であるカズキによって設立されたGlaspは、彼にとって2度目の起業となる。このプラットフォームは、様々な業界の専門家やソートリーダーが集まり、知識を共有できるコミュニティとして設計されている。このアプローチにより、ユーザーは各分野の専門家の知恵や経験を享受することができる。</p>
+<p>Glaspの核となる機能のひとつに、ソーシャル・ウェブ・ハイライター機能がある。このツールにより、ユーザーはウェブ上の引用や考えをハイライトして整理することができ、より集中して注意深く読むことができる。オンライン・リサーチで得た重要な情報や洞察を保持したい人には特に役立つ。</p>
+<p>Glaspのユーザー層は非常に多様で、複数の職業にまたがっている。プロダクトデザイナー、マネージャー、コンテンツクリエイター、スタートアップの創業者、ソフトウェアエンジニア、ベストセラー作家、テクニカルライターなどです。この多様性は、知識共有と学習のためのグラスプのツールやコミュニティが幅広く応用でき、魅力的であることを裏付けている。</p>
+<p>要約すると、Glaspは、オンラインでの情報消費と相互作用の方法を強化することを目的とした新興企業として際立っている。コンテンツのハイライトや整理のためのツールを提供し、コミュニティ主導のアプローチと組み合わせることで、ユーザーがより深く知識と関わり、その洞察をより多くの人々と共有することを可能にしている。</p>
+<p>参考文献：</p>
+<ul>
+<li><a href="https://www.forbes.com/sites/cindygordon/2023/03/29/democratizing-knowledge-meet-glasp-an-ai-thunderbolt/#:~:text=Glasp%20is%20tackling%20a%20use,in%20simple%20clicks">Democratizing Knowledge: Meet Glasp - An AI Thunderbolt.</a></li>
+<li><a href="https://glasp.co/articles/why-are-we-building-glasp#:~:text=Why%20Are%20We%20Building%20Glasp%3F,death%20experiences">Why Are We Building Glasp? | Glasp</a></li>
+</ul>
+
+</div>
+</article>
+
+</main>
+</body>
+</html>

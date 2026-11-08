@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ChatGPTで授業準備（クイズ作成編）：読解文とQuizizzデータ作成が2分で終わる！ · ほぼ週刊ググレカス</title>
+<link rel="stylesheet" href="/ggrks/css/site.css">
+</head>
+<body>
+<header class="site-header">
+<p class="site-title"><a href="/ggrks/">ほぼ週刊ググレカス</a></p>
+<p class="site-desc">貴方もおググりになられてはいかがかしら</p>
+</header>
+<main>
+
+<article>
+<h1>ChatGPTで授業準備（クイズ作成編）：読解文とQuizizzデータ作成が2分で終わる！</h1>
+<p class="meta">
+<time datetime="2023-04-23T10:58:45">2023-04-23 10:58</time>
+ · #ほぼ週刊ググレカス, AI, EdTech
+</p>
+
+<figure class="eyecatch">
+<img src="/ggrks/images/banners/2023/04/blog-banner-1280x720-1_comp30.jpg" alt="ChatGPTで授業準備（クイズ作成編）：読解文とQuizizzデータ作成が2分で終わる！">
+</figure>
+
+<div class="body">
+<p>もう、ゼロから問題文や選択肢を考えなくてもいい！「1文字もタイプすること無く」クイズが完成します。（ChatGPTのプロンプトは除きます）今回はChatGPTを使って、定番のクイズプラットフォーム、Quizizzの問題データを極めて短時間で作成する方法をご紹介します。</p>
+<p>読むのが面倒な方はこちら！</p>
+<p><a href="https://www.youtube.com/watch?v=KmNGD9fo4pE">https://www.youtube.com/watch?v=KmNGD9fo4pE</a></p>
+<h2 id="用意するもの">用意するもの</h2>
+<ol>
+<li><a href="https://chat.openai.com/">ChatGPT（有料版、無料版どちらでも可）</a></li>
+<li><a href="https://quizizz.com/">Quizizz</a> のアカウント</li>
+<li>Quizizzの問題作成用テンプレート。Excel形式のファイルがこちらからダウンロードできます： <a href="https://support.quizizz.com/hc/en-us/article_attachments/4402409922573/QuizizzSampleSpreadsheet.xlsx">QuizizzSampleSpreadsheet.xlsx</a></li>
+</ol>
+<h2 id="1-chatgptで文章作成">1. ChatGPTで文章作成</h2>
+<p>例として今回は、ChatGPTにスティーブ・ジョブズについての物語を書いてもらいました。上のYouTube動画では無料版でも使えるGPT-3.5を使っています。</p>
+<h3 id="文章生成用のプロンプト">文章生成用のプロンプト</h3>
+<pre tabindex="0"><code>スティーブ・ジョブズについての物語を彼の面白いエピソードを交えて書いてください
+</code></pre><p>この1行をコピペして送信するだけです。物凄い時代になりましたね。</p>
+<h3 id="文章が途中で切れて終わってしまったら続けて">文章が途中で切れて終わってしまったら「続けて」</h3>
+<p>ChatGPTは1回に出力できるおおよその文字数が決まっているので、長い文章を書かせると最後までたどり着けずに途中で切れてしまうことがよくあります。そんな時は図のように「続けて（または continue）」と一言、打ち込むだけで、その次の文字から続きを書いてくれます。（書いてくれないこともあります）</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2023/04/69062be4cd80fbe6d9830b86dbf76045-edited-1.jpg" alt=""></p>
+<h3 id="重要chatgptで書いた文章は事実確認が必須">【重要】ChatGPTで書いた文章は事実確認が必須</h3>
+<p>AIが書いた文章は教材として使う前に、<strong>必ず事実確認を行ってください</strong>。この例のスティーブ・ジョブズのように、実在する人物に関する情報を教材として使う場合には、ChatGPTが書いた情報が事実に即しているかの確認が必要です。</p>
+<p>事実確認が面倒だ、という場合は、初めにChatGPTにフィクションを創作するように指示しましょう。これなら問題文は架空の物語になりますから、事実確認は必要ありません。</p>
+<h2 id="2-chatgptで多肢選択式問題の作成">2. ChatGPTで多肢選択式問題の作成</h2>
+<p>いわゆる4択問題です。ChatGPTにクイズ作成を指示すると、たいてい4択問題を作ります。別の種類の問題を作りたい場合は、どのような問題形式を作りたいかを明確に指示してください。</p>
+<h3 id="クイズ作成用のプロンプト">クイズ作成用のプロンプト</h3>
+<p>では続いて、文章の理解度を測る選択肢問題を5問、作成してもらいましょう。</p>
+<pre tabindex="0"><code>この文章の理解度を測る選択肢問題を5つ作成してください
+</code></pre><p>作成された問題にはおそらく、a〜dの選択肢が付いていると思います。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2023/04/image-1024x856.png" alt=""></p>
+<p>ここまで、本当に一瞬で終わりますね。教師は、ほとんど何もしていません。</p>
+<h2 id="3-クイズ形式への変換">3. クイズ形式への変換</h2>
+<p>Quizizzでは、Excel形式のデータをインポートして一括でクイズを作成することができます。</p>
+<h3 id="できあがったクイズをquizizz形式へ変換するプロンプト">できあがったクイズをQuizizz形式へ変換するプロンプト</h3>
+<p>ここまでの手順で作ったクイズをExcelにそのまま貼り付けられるように、以下のプロンプトでデータ形式を変換します。このままコピペして下さい。</p>
+<pre tabindex="0"><code>このクイズを以下のヘッダ行に合わせて、TSV形式に変換して下さい。
+</code></pre><p>Question Text, Question Type, Option 1, Option 2, Option 3, Option 4, Option 5, Correct Answer</p>
+<pre tabindex="0"><code>- Correct Answer はアルファベットではなく、数字 (1-4) にして下さい。
+- 2列目の値は固定で、&#34;Multiple Choice&#34; にして下さい。
+- Option 5は空欄にして下さい。 
+- 結果をcode snippetで表示して下さい。
+</code></pre><p>TSV形式というのは、タブという空白文字列で区切られたデータ形式のことです。カンマで区切られたCSV形式の方が有名ですが、区切り文字が違うだけで、同じテキストデータです。</p>
+<p>この結果を code snippet を使って表示するように指示します。これはプログラミング言語を文章に貼り付ける時によく使うツールです。上手くいけば、以下のような結果になるはずです。</p>
+<p>右上の「Copy code」をクリックしてデータをコピーし、ExcelやGoogle Sheetsに貼り付けます。Google Sheetsを使っている場合は、Excel形式でダウンロードします。</p>
+<h2 id="4-quizizzにインポート">4. Quizizzにインポート</h2>
+<p>Excelができたら、あとはQuizizzにインポートするだけです。詳しい手順はYouTubeをご覧ください。</p>
+<p>ExcelからQuizizzにインポートする方法はQuizizzの公式サイトにも詳しい説明がありますので、詳細は以下のリンクを参照してください。分かりやすいビデオもありますので、簡単にできるでしょう。</p>
+<p><a href="https://support.quizizz.com/hc/en-us/articles/115003688491-Import-a-Quiz-From-a-Spreadsheet">Import a Quiz From a Spreadsheet – Help Center</a></p>
+<h3 id="quizizzへのインポート時にエラーが出たら">Quizizzへのインポート時にエラーが出たら</h3>
+<p>変換ミスが起こりにくいように上記のプロンプトは既に改良済ですが、それでもExcelを取り込む時にエラーが出た場合は、Excelデータに誤りがあるはずなので確認して修正してください。</p>
+<p>例えば以下の図では、ヘッダ行（最初の行）の2列目を「Question Type」とすべきところを「Multiple Choice」と誤って書いています。この場合は、Excelを手作業で修正すればよいでしょう。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2023/04/image-1-1024x508.png" alt=""></p>
+<p>インポートが完了したら、クイズをプレビューして問題が正しく表示されるか確認しましょう。</p>
+<p>以上、ChatGPTを使ってクイズを作成する方法をご紹介しました。慣れれば1〜2分でこの作業が終了するはずです。「今までの試験作成の苦労は何だったんだ」となること請け合いです。ぜひ試してみて下さい！</p>
+<h2 id="関連記事chatgptで授業準備">関連記事：ChatGPTで授業準備</h2>
+<p>こちらの記事も併せてどうぞ！</p>
+<p><a href="https://laiken.net/ggrks/lesson-prep-with-chatgpt/">https://laiken.net/ggrks/lesson-prep-with-chatgpt/</a></p>
+
+</div>
+</article>
+
+</main>
+</body>
+</html>

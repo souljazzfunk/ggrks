@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>テキスト入力を超高速化する！定型文呼び出しアプリ（らくらく採点・添削②） · ほぼ週刊ググレカス</title>
+<link rel="stylesheet" href="/ggrks/css/site.css">
+</head>
+<body>
+<header class="site-header">
+<p class="site-title"><a href="/ggrks/">ほぼ週刊ググレカス</a></p>
+<p class="site-desc">貴方もおググりになられてはいかがかしら</p>
+</header>
+<main>
+
+<article>
+<h1>テキスト入力を超高速化する！定型文呼び出しアプリ（らくらく採点・添削②）</h1>
+<p class="meta">
+<time datetime="2022-05-13T20:07:16">2022-05-13 20:07</time>
+ · #ほぼ週刊ググレカス, chrome extensions, EdTech
+</p>
+
+<figure class="eyecatch">
+<img src="/ggrks/images/banners/2022/05/TextExpander.jpg" alt="テキスト入力を超高速化する！定型文呼び出しアプリ（らくらく採点・添削②）">
+</figure>
+
+<div class="body">
+<p>教師の皆さん、採点や添削中に同じコメントを何度も何度も書いたことはありませんか？その作業、もっと楽になります！よく使うコメントは、定型文として登録しておけば何度でも呼び出せますよ。今回は「定型文呼び出し」に使える機能やアプリをご紹介します！</p>
+<h2 id="定番ユーザー辞書登録を使う">【定番】ユーザー辞書登録を使う</h2>
+<p><img src="https://www.google.com/help/hc/images/japaneseime_166765_dictionary_setting_ja.png" alt=""></p>
+<p>日本語入力システムのユーザー辞書に定型文を登録するのは、日本に古から伝わる秘法？です。非常に短い文字列、例えば「jgm」と入力して変換すると…</p>
+<pre tabindex="0"><code>寿限無、寿限無、五劫の擦り切れ、海砂利水魚の水行末・雲来末・風来末、喰う寝る処に住む処、藪ら柑子の藪柑子、パイポ・パイポ・パイポのシューリンガン、シューリンガンのグーリンダイ、グーリンダイのポンポコピーのポンポコナの、長久命の長助
+</code></pre><p>と一発で変換できるように登録しておく、といった具合です。</p>
+<h3 id="ユーザー辞書登録の利点">ユーザー辞書登録の利点</h3>
+<ul>
+<li>汎用性が高い（WindowsでもMacでもChrome OSでもLinuxでも使える）</li>
+<li>特別なアプリが必要ない</li>
+<li>どのアプリ上でも使える（例外もあります）</li>
+<li>ひとつの単語に対して複数の予約語を登録可能（例：きごう）</li>
+</ul>
+<h3 id="ユーザー辞書登録の難点">ユーザー辞書登録の難点</h3>
+<ul>
+<li>登録した時の単語を覚えていないと呼び出せない</li>
+</ul>
+<h2 id="macos標準の-text-replacement-を使う">MacOS標準の Text Replacement を使う</h2>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2022/05/Screenshot.png" alt=""></p>
+<p>アルファベットしかない言語を使っている人々には、そもそも「かな漢字変換」や「辞書登録」という概念がありません。そんな彼らが文字入力の効率化という問題を解決するために考案したのが &ldquo;Auto Text Expansion&rdquo; （自動テキスト展開、とでも訳しましょうか）という方法です。</p>
+<p>Appleではテキスト置換と呼んでいるようです。登録された予約語（略語）を打ち込むと、自動的にお目当ての単語に変換してくれる機能です。Macをお使いの方は、実は何も新しいアプリを導入しなくても定型文の登録が可能です。</p>
+<pre tabindex="0"><code>システム環境設定 &gt; キーボード &gt; テキスト
+</code></pre><p>で設定できます。</p>
+<h3 id="text-replacement-の利点">Text Replacement の利点</h3>
+<ul>
+<li>特別なアプリが必要ない</li>
+<li>どのアプリ上でも使える（例外もあります）</li>
+<li>日本語変換よりもすこし早い</li>
+<li>タイピング中に候補が表示される（それがウザい場合もある）</li>
+</ul>
+<h3 id="text-replacement-の難点">Text Replacement の難点</h3>
+<ul>
+<li>Macでしか使えない</li>
+<li>ハッシュタグ（# で始まる単語）と相性が悪い</li>
+<li>登録した時の単語を覚えていないと、呼び出せない</li>
+</ul>
+<h2 id="chrome拡張機能を使うmagical">Chrome拡張機能を使う（Magical）</h2>
+<p><img src="https://global-uploads.webflow.com/6091b7081a1d7e13ccd7603a/61bb59c332562187a1f27569_Text%20Variables.gif" alt=""></p>
+<p>Auto Text ExpanderはChrome拡張機能でも人気で、いくつか人気のものがあります。ここでは例として &ldquo;Magical&rdquo; というテキスト展開機能をとりあげますが、興味がある方はChrome Web Storeで検索してみて下さい。</p>
+<p>Magicalは定型文を大量に扱うカスタマーサポートやマーケティングの担当者を想定した機能が豊富で、定型文のテンプレートの空欄に必要事項を入力できる設定など、かなり高度なことができます。<br>
+<a href="https://www.getmagical.com/share/install?referralCode=9lz0d3VQGkIW0QRJGyjqiOOmGYvA&amp;t=1652361446583&amp;utm_source=referral&amp;utm_campaign=share_referral_magical_default&amp;utm_medium=copy_link">Magical - Text Expander 公式サイト</a></p>
+<h3 id="magical-の利点">Magical の利点</h3>
+<ul>
+<li>登録した文字列を忘れても // でメニューが表示される</li>
+<li>日付や時刻を自動入力できる</li>
+<li>入力と置換が安定している</li>
+</ul>
+<h3 id="magical-の難点">Magical の難点</h3>
+<ul>
+<li>ブラウザ上でしか使えない</li>
+<li>MagicalはGoogle Apps Script のエディタ上で誤動作を起こすため、併用できない</li>
+</ul>
+<h2 id="クリップボード履歴アプリの機能を使う">クリップボード履歴アプリの機能を使う</h2>
+<p>別の記事でご紹介していますが、クリップボード履歴アプリの中には定型文の登録ができるものがあり、非常に便利です。MacならClipyというアプリがおすすめで、短縮登録した定型文を展開するのではなく、キーボードショートカットで呼び出すことができます。詳しくはこちらの記事をどうぞ。</p>
+<p><a href="https://laiken.net/ggrks/clipboard-history/">https://laiken.net/ggrks/clipboard-history/</a></p>
+<h2 id="定型文呼び出しアプリまとめ">定型文呼び出しアプリまとめ</h2>
+<p>定型文呼び出しアプリは、課題の採点や添削の効率化にとても威力を発揮するよ！というお話でした。今回のポイントは：</p>
+<ul>
+<li>ユーザー辞書やOS標準の機能など、新たなアプリが無くても入力を効率化できる</li>
+<li>Chrome拡張機能の限界を理解しているなら、Magical がおすすめ</li>
+<li>定型文を短縮登録しておき展開するものや、キーボードショートカットで呼び出すものがある</li>
+</ul>
+<p>業務の効率化は、コンピューターや業務それ自体の<strong>基本的な動作を見直す</strong>ことで実現できることが多いと思います。今回のツールもまさにそういった基本中の基本であるテキスト入力を効率化してくれるものです。ぜひ使ってみて下さいね！</p>
+
+</div>
+</article>
+
+</main>
+</body>
+</html>
