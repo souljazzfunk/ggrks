@@ -9,6 +9,7 @@ tags:
   - "AI"
   - "情報リテラシー"
 url: "/paperclip-maximizer/"
+image: "images/banners/2023/07/laiken.rungpt_a_flood_of_paperclips_46e0b3de-6fe4-4564-a96f-55320398c0b4_comp30.jpg"
 ---
 
 今回はAIの危険性を考える上で非常に分かりやすい思考実験をご紹介します。哲学者ニック・ボストロムによって提唱された「ペーパークリップ最大化器（paperclip maximizer）」という名前で知られている思考実験です。これは、AIによって人間が意図していない結果が生じる可能性があることを示唆する際の代名詞として使われます。

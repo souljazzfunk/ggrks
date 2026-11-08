@@ -11,6 +11,7 @@ tags:
   - "情報リテラシー"
   - "業務効率化"
 url: "/chatgpt-to-quizizz/"
+image: "images/banners/2023/04/blog-banner-1280x720-1_comp30.jpg"
 ---
 
 もう、ゼロから問題文や選択肢を考えなくてもいい！「1文字もタイプすること無く」クイズが完成します。（ChatGPTのプロンプトは除きます）今回はChatGPTを使って、定番のクイズプラットフォーム、Quizizzの問題データを極めて短時間で作成する方法をご紹介します。

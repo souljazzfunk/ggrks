@@ -7,6 +7,7 @@ categories:
   - "EdTech"
 permalink: "https://laiken.net/ggrks/screencastify-new-free-plan-2022/"
 url: "/screencastify-new-free-plan-2022/"
+image: "images/banners/2022/08/screencastify-new-free-plan-2022.png"
 ---
 
 教師向け画面録画アプリの最高峰、Screencastifyの無料プランがパワーアップしました。すごいぞ！さっそく使ってみましょう。もちろん教師じゃない人にもとても便利なので要チェックです。

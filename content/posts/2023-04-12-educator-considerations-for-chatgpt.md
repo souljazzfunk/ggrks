@@ -12,6 +12,7 @@ tags:
   - "情報教育"
   - "業務効率化"
 url: "/educator-considerations-for-chatgpt/"
+image: "images/banners/2023/04/blog-banner-1280x720-2.jpg"
 ---
 
 急激に普及したChatGPTに、世界中の教育機関が対応を迫られています。今回ご紹介するページには、教育現場でのChatGPTの適切な利用方法や注意点について、まず最初に知っておくべきことが全て書いてあります。非常に重要な前提知識ですので、必要な時に何度でも読み返してみてください。

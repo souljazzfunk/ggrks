@@ -15,6 +15,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/google-docs-offline/"
+image: "images/banners/2021/01/wrong2.jpg"
 ---
 
 最近、Googleで大規模な障害がありました。 この間、授業中、あるいは業務中やプレゼン中だった方、急遽対応する必要があって冷や汗をかいた方も多いかと思います。

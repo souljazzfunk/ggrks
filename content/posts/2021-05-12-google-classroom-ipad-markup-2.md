@@ -27,6 +27,7 @@ tags:
   - "業務効率化"
   - "注釈"
 url: "/google-classroom-ipad-markup-2/"
+image: "images/banners/2021/05/Screenshot_comp.jpg"
 ---
 
 ## iPadを使って注釈をつける場合

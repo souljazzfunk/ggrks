@@ -6,6 +6,7 @@ categories:
   - "chrome extensions"
 permalink: "https://laiken.net/ggrks/yt-caption-search/"
 url: "/yt-caption-search/"
+image: "images/banners/2021/03/image-13-1.jpg"
 ---
 
 健忘家の皆さん、今日もラクダに揺られながらYouTubeを2倍速で見ていますか？

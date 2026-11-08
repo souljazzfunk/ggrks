@@ -2,7 +2,16 @@
 {{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
 <ul class="post-list">
 {{ range (where .Site.RegularPages "Section" "posts").ByDate.Reverse }}
-<li><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time> <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+{{ $page := . }}
+<li class="post-card">
+{{ with .Params.image }}
+<a class="thumb" href="{{ $page.RelPermalink }}"><img src="{{ . | relURL }}" alt=""></a>
+{{ end }}
+<div class="card-text">
+<time datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date.Format "2006-01-02" }}</time>
+<a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+</div>
+</li>
 {{ end }}
 </ul>
 {{ end }}

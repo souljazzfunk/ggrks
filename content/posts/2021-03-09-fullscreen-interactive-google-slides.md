@@ -21,6 +21,7 @@ tags:
   - "全画面"
   - "教育ICT"
 url: "/fullscreen-interactive-google-slides/"
+image: "images/banners/2021/03/gs-fullscreen_title.jpg"
 ---
 
 Googleスライドを編集モードのまま、フルスクリーンで、でも横のサムネイルは非表示にして見せたいと思ったことはありませんか？スライドを白板代わりに使っている先生は、特にそう思うのではないでしょうか。

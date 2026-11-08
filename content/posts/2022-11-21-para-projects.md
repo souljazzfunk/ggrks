@@ -10,6 +10,7 @@ tags:
   - "ライフハック"
   - "業務効率化"
 url: "/para-projects/"
+image: "images/banners/2022/11/blog-banner-1280x720-1.jpg"
 ---
 
 ## アウトプット指向であるということ

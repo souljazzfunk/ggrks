@@ -17,6 +17,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/youtube-playback-speed/"
+image: "images/banners/2021/04/Screenshot.jpg"
 ---
 
 YouTubeって2倍速までしかできませんよね？でも、ながーい講義動画とか、映画のあの面白いシーンどこだったっけ、と頭出ししたい時とかに、もっと速く再生したい時もありますよね。そんな時に役立つChrome拡張機能のご紹介です。その名も[Youtube Playback Speed Control](https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik)。

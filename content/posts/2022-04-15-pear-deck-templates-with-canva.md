@@ -16,6 +16,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/pear-deck-templates-with-canva/"
+image: "images/banners/2022/04/Pear-Deck-templates-with-Canva.jpg"
 ---
 
 授業スライドのテンプレートをお探しの皆さん！CanvaがPear Deckと提携しているのをご存知ですか？GoogleスライドとPowerPointですぐに使えるかわいいスライド用テンプレートがCanvaに用意されていますよ。美しいデザインとともに、リアルタイムで形成的評価＆インタラクティブな授業設計をしましょう！

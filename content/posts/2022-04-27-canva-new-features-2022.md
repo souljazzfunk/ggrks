@@ -17,6 +17,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/canva-new-features-2022/"
+image: "images/banners/2022/04/Canva_new_features.jpg"
 ---
 
 プロ顔負けのデザインが簡単に作成できるCanva。続々とリリースされる最近の新機能をまとめました。今回は主にCanvaのプレゼンテーションで使える、2021〜2022年に実装された新機能・便利な機能をまとめてご紹介します！

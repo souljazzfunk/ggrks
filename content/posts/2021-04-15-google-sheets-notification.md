@@ -22,6 +22,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/google-sheets-notification/"
+image: "images/banners/2021/04/gsheet.jpg"
 ---
 
 健忘家のみなさん、きょうもラクダの絵文字を灼熱のSlackに貼り付けていますか？

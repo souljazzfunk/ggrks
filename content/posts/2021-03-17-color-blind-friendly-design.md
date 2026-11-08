@@ -33,6 +33,7 @@ tags:
   - "色覚バリアフリー"
   - "色覚障害"
 url: "/color-blind-friendly-design/"
+image: "images/banners/2021/03/color-blind.png"
 ---
 
 みなさん、自分のスライドが色弱（色盲）の人からどう見えるか、考えたことはありますか？あなたが強調しているつもりの赤い字は、ぜんぜん目立っていないかもしれません！

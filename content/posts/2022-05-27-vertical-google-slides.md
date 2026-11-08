@@ -14,6 +14,7 @@ tags:
   - "グーグル"
   - "情報リテラシー"
 url: "/vertical-google-slides/"
+image: "images/banners/2022/05/vertical_Google_slides.png"
 ---
 
 教師の皆さん！日本語や国語を教える時に、Googleスライドで縦書き表示ができたらいいのになぁ、と思ったことはありませんか？できますよー。今回は、縦書き表示できる2つの方法をご紹介します。

@@ -25,6 +25,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/google-sheets-to-forms/"
+image: "images/banners/2021/09/generate-forms.jpg"
 ---
 
 「Googleフォームでアンケートとかクイズ作るの面倒くさいんだけど、なんとかならん？」という方に朗報です！Googleスプレッドシートにクイズの問題を作りためておけば、必要な時にGoogleフォームのクイズに変換できるアドオンをご紹介します。

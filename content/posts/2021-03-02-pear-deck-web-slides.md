@@ -21,6 +21,7 @@ tags:
   - "日本語教育"
   - "音楽講師"
 url: "/pear-deck-web-slides/"
+image: "images/banners/2021/03/image-1-1.jpg"
 ---
 
 今回は、Pear Deckの機能の1つ「Web Slides（ウェブサイトの埋め込み）」を深く掘り下げていこうと思います！

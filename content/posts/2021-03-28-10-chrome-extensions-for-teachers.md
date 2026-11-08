@@ -7,6 +7,7 @@ categories:
   - "EdTech"
 permalink: "https://laiken.net/ggrks/10-chrome-extensions-for-teachers/"
 url: "/10-chrome-extensions-for-teachers/"
+image: "images/banners/2021/03/429e8af24fd4801415cf8cfc5cfa35cc.png"
 ---
 
 香港の先生方が主催する「Zoomで実践シェア会」でお話しさせて頂きました。1年前に準備期間ほぼゼロでオンライン授業を強いられた時に、シェア会から多くのノウハウを教えて頂き、本当に助かりました。

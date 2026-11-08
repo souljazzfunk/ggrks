@@ -21,6 +21,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/gimkit-goes-free/"
+image: "images/banners/2021/12/Gimkit-goes-free_comp75.jpg"
 ---
 
 EdTech界隈にクイズ型のオンラインツールは数あれど、その中でひときわ異彩を放っている[Gimkit](https://www.gimkit.com/)（「ギムキット」と読みます）。今回のアップデートで、無料プランでできることが大幅に拡充されました。さっそく使ってみましょう！

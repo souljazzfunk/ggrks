@@ -9,6 +9,7 @@ permalink: "https://laiken.net/ggrks/generative-ai-super-basics/"
 tags:
   - "情報リテラシー"
 url: "/generative-ai-super-basics/"
+image: "images/banners/2023/12/basic-knowledge-of-generative-AI.jpg"
 ---
 
 ChatGPT登場からわずか1年で、世界が大きく変わりました。

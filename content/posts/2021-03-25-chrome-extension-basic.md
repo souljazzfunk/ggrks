@@ -23,6 +23,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/chrome-extension-basic/"
+image: "images/banners/2021/03/b1908d351571bcdf9bbe330072cfab3c.png"
 ---
 
 あまりコンピュータやインターネットに詳しくない人に向けて、[Google Chrome拡張機能について説明したり、便利なものを紹介する機会](https://www.youtube.com/watch?v=pdk1Zz-ewQw&t=580s)を頂きました。イベントの予習・復習用に本稿をお役立て頂ければ幸いです！

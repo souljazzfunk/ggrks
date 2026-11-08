@@ -20,6 +20,7 @@ tags:
   - "業務効率化"
   - "翻訳"
 url: "/google-chrome-translation-settings/"
+image: "images/banners/2021/10/782b3edcdb3aa8fb6a1349f65810d214.jpg"
 ---
 
 Google Chromeブラウザの標準機能でウェブサイトを翻訳する方法です。Google公式のヘルプを読んだだけではよく分からない、という人のためにビデオも撮りました。動画内の字幕まで翻訳できる場合もありますので、ぜひ試してみてください！

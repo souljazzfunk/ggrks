@@ -26,6 +26,7 @@ tags:
   - "時短術"
   - "業務効率化"
 url: "/shut-up-n-snap-yer-window/"
+image: "images/banners/2021/07/Nirvana-1.jpg"
 ---
 
 はいどうもー。キーボードショートカットおじさんですよ。時間泥棒からあなたの時間を取り返して差し上げましょう。

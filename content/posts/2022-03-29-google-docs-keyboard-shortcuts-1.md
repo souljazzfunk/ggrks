@@ -22,6 +22,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/google-docs-keyboard-shortcuts-1/"
+image: "images/banners/2022/03/banner-1280x720px_comp75-2.jpg"
 ---
 
 お仕事中の皆さん！その仕事、もっと早く終わります！今回は日々の仕事全般を高速化してくれる強い味方、キーボードショートカットの中でも特に汎用性が高く便利なものをご紹介します。

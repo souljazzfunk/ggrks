@@ -11,6 +11,7 @@ tags:
   - "情報リテラシー"
   - "生成AI"
 url: "/hallucination/"
+image: "images/banners/2023/12/hallucination.jpg"
 ---
 
 前回に引き続き、生成AIの基礎知識です。今回はChatGPTのようなAIチャットボットが見せるハルシネーション（幻覚）という現象について、よくある誤解に陥らないように、やさしい言葉でていねいに紹介します。

@@ -7,6 +7,7 @@ categories:
   - "EdTech"
 permalink: "https://laiken.net/ggrks/chatgpt-guide-for-teachers-preview3_1/"
 url: "/chatgpt-guide-for-teachers-preview3_1/"
+image: "images/banners/2023/06/Laiken_a_futuristic_classroom_filled_with_students_and_tiny_rob_0ff865ce-9cef-4878-b484-fbbff402ab27_comp30.jpg"
 ---
 
 以下は、6月27日発売予定の拙著「教師のためのChatGPTガイド：AIを活用した教育の手引き」の無料プレビュー版です。第3章から3.1節「『AI禁止』は意味がない」を抜粋して掲載します。続きはKindle版でお読みいただければ幸いです。

@@ -5,6 +5,11 @@
 {{ with .Date }}{{ if not .IsZero }}<time datetime="{{ .Format "2006-01-02T15:04:05" }}">{{ .Format "2006-01-02 15:04" }}</time>{{ end }}{{ end }}
 {{ with .Params.categories }} · {{ delimit . ", " }}{{ end }}
 </p>
+{{ with .Params.image }}
+<figure class="eyecatch">
+<img src="{{ . | relURL }}" alt="{{ $.Title }}">
+</figure>
+{{ end }}
 <div class="body">
 {{ .Content }}
 </div>

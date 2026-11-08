@@ -9,6 +9,7 @@ tags:
   - "AI"
   - "ChatGPT"
 url: "/ai-chatbot-bing-youchat-poe/"
+image: "images/banners/2023/03/blog-banner-1280x720-2.jpg"
 ---
 
 ChatGPTが大きく注目されていますが、今回はそれ以外の便利な3つのAIチャットボットを比較してみました。それぞれのAIチャットボットの特徴や利用感についてご紹介します。

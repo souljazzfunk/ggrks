@@ -10,6 +10,7 @@ permalink: "https://laiken.net/ggrks/the-boy-and-google/"
 tags:
   - "AI"
 url: "/the-boy-and-google/"
+image: "images/banners/2023/10/blog-banner-1280x720-2.png"
 ---
 
 「ググる」という言葉がもはや古語になりつつあります。

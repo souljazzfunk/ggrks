@@ -17,6 +17,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/best-chrome-extensions-2020-2022/"
+image: "images/banners/2023/01/blog-banner-1280x720-1.png"
 ---
 
 ＼Chrome拡張機能ベスト10🏆／  

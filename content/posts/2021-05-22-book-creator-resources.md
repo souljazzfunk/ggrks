@@ -21,6 +21,7 @@ tags:
   - "業務効率化"
   - "電子書籍"
 url: "/book-creator-resources/"
+image: "images/banners/2021/05/BC_banner.jpg"
 ---
 
 健忘家の皆さん、きょうもラクダに揺られながら電子ブックをめくっていますか？🐪

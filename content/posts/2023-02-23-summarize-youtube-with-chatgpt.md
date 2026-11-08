@@ -15,6 +15,7 @@ tags:
   - "情報リテラシー"
   - "業務効率化"
 url: "/summarize-youtube-with-chatgpt/"
+image: "images/banners/2023/02/blog-banner-1280x720-2.jpg"
 ---
 
 最近、YouTubeの動画を見て、情報を得ることが一般的になってきました。しかし、その情報を自分でまとめて再利用するには、非常に手間がかかります。そんなときに、ChatGPTがあれば、YouTube動画まとめ→ブログ変換までが一瞬でできます。今回は、その使い方について紹介します！

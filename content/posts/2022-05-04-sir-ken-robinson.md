@@ -9,6 +9,7 @@ tags:
   - "教育問題"
   - "環境問題"
 url: "/sir-ken-robinson/"
+image: "images/banners/2022/05/Sir-Ken-Robinsons-message.jpg"
 ---
 
 ## ケン・ロビンソン卿の最後の講演

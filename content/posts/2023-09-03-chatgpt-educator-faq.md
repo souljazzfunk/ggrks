@@ -10,6 +10,7 @@ permalink: "https://laiken.net/ggrks/chatgpt-educator-faq/"
 tags:
   - "AI"
 url: "/chatgpt-educator-faq/"
+image: "images/banners/2023/09/blog-banner-1280x720-faq_comp75.jpg"
 ---
 
 以下は、OpenAIが公開している “[Educator FAQ](https://help.openai.com/en/collections/5929286-educator-faq)” というページの内容を仮に翻訳し、注や解説を加えたものです。より正確に理解したい場合は、必ず元のサイトを参照するようにしてください。誤訳や誤記等がありましたらお知らせいただけますと幸いです。

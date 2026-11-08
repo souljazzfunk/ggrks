@@ -16,6 +16,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/better-qr-codes/"
+image: "images/banners/2021/08/qr-codes.png"
 ---
 
 ヒト科のみなさんこんにちは！今日も灼熱のフライパンでラクダ肉をフランベしてますか？じゅわーっ

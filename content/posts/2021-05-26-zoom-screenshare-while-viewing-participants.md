@@ -24,6 +24,7 @@ tags:
   - "情報教育"
   - "業務効率化"
 url: "/zoom-screenshare-while-viewing-participants/"
+image: "images/banners/2021/05/Screenshot_comp-1.jpg"
 ---
 
 Zoomでミーティング中に画面共有すると、他の参加者の顔が見えなくなってしまったり、小さいサムネール（ビデオパネルと呼ぶらしいです）のようになってしまいますね。今回は画面共有時によくあるトラブルの解決法と、画面共有しながら参加者の顔を見るための方法をご紹介します。

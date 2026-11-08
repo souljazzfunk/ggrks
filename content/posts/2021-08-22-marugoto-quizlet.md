@@ -22,6 +22,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/marugoto-quizlet/"
+image: "images/banners/2021/08/marugoto-quizlet.png"
 ---
 
 ラクダの皆さん、きょうも冒険家を背中に乗せてうひゃひゃひゃーですか？🐫  

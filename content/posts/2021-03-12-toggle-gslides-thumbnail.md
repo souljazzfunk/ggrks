@@ -23,6 +23,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/toggle-gslides-thumbnail/"
+image: "images/banners/2021/03/2baac19ff85737c9991a2eb0cdf220df.png"
 ---
 
 好評を頂いた[前回の記事](https://laiken.net/ggrks/fullscreen-interactive-google-slides/)で質問が多かった「サムネイル消えたのはいいけど、元に戻らないじゃん」という問題の解決方法がわかりましたのでご紹介です。手っ取り早いのはタブをリロードすることですが、スライドが何十枚もあると時間がかかってしまいます。そこで、下記でご紹介する方法をおすすめします！

@@ -15,6 +15,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/chrome-without-mouse-2b/"
+image: "images/banners/2021/02/chrome-without-mouse.jpg"
 ---
 
 ## キーの組み合わせが覚えられない！

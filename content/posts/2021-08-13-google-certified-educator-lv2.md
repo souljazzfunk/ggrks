@@ -20,6 +20,7 @@ tags:
   - "教育ICT"
   - "資格"
 url: "/google-certified-educator-lv2/"
+image: "images/banners/2021/08/GoogleCertifiedEducatorLv2.png"
 ---
 
 ヒト科の皆さん、こんにちは！前回の記事（[【今がチャンス？】Google認定教育者レベル1を取得して、スキルと専門知識を証明しよう – ほぼ週刊ググレカス](https://laiken.net/ggrks/google-certified-educator-lv1/)）に続いて、Google認定教育者レベル2の情報です。レベル1と比べてかなり広範囲の知識と運用能力が試される印象ですが、Googleによる単なる我田引水の認定資格に留まらず、現代的なテクノロジーを援用した教育手法に関する高度な知識と能力を備えた人材を育てたい、という哲学が伺えるような気がします。

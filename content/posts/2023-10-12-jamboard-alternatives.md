@@ -8,6 +8,7 @@ categories:
   - "教師のためのChatGPTガイド"
 permalink: "https://laiken.net/ggrks/jamboard-alternatives/"
 url: "/jamboard-alternatives/"
+image: "images/banners/2023/10/blog-banner-1280x720-1.png"
 ---
 
 「ジャムボがやられたようだな…」  

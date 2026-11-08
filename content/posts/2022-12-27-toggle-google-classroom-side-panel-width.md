@@ -12,6 +12,7 @@ tags:
   - "情報リテラシー"
   - "業務効率化"
 url: "/toggle-google-classroom-side-panel-width/"
+image: "images/banners/2022/12/Google-Classroom-Side-Panel.png"
 ---
 
 Google Classroomで提出物の管理をしている皆さん、コメント欄の幅が狭すぎると思いませんか？今回はイライラを解消すべく、簡単なブックマークレットを書いてみましたのでご紹介します。

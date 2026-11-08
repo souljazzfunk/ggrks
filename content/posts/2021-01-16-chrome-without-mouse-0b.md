@@ -15,6 +15,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/chrome-without-mouse-0b/"
+image: "images/banners/2021/01/rectangle_large_type_2_262ab2101b110b04a36b10d08bd57539.jpg"
 ---
 
 ### パソコンのキーボードについて知っておくべきこと

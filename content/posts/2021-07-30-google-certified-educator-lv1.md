@@ -20,6 +20,7 @@ tags:
   - "教育ICT"
   - "業務効率化"
 url: "/google-certified-educator-lv1/"
+image: "images/banners/2021/07/GoogleCertifiedEducatorLv1.png"
 ---
 
 哺乳類の皆さんこんにちは。今回は「学校や就職活動で優位性を示せる」Google認定資格、教育者レベル1について概要、出題傾向、勉強方法、受験のコツ、とても参考になる資料集などをまとめました！一緒に勉強して認定を取得しましょう！

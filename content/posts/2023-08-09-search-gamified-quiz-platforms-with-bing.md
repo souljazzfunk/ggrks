@@ -11,6 +11,7 @@ tags:
   - "情報リテラシー"
   - "業務効率化"
 url: "/search-gamified-quiz-platforms-with-bing/"
+image: "images/banners/2023/08/blog-banner-1280x720-1.jpg"
 ---
 
 授業中に盛り上がるクイズ型の学習ツールはQuizletやQuizizzが有名ですが、もっとゲーム性を高めたものもあります。楽しいクイズツールをいくつか知っておくと、いざというときの「奥の手」として重宝するでしょう。

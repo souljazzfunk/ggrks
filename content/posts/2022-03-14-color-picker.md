@@ -16,6 +16,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/color-picker/"
+image: "images/banners/2022/03/banner-1280x720px_comp75.jpg"
 ---
 
 Adobe Photoshopなんかでお馴染みの機能がブラウザでも使えますよ！その中でも、クリック1発でHEXカラーコードをクリップボードにコピーできてしまう"Slick color picker"というChrome拡張機能をご紹介します！（中級以上向け）

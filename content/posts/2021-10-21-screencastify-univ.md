@@ -20,6 +20,7 @@ tags:
   - "業務効率化"
   - "画面配信"
 url: "/screencastify-univ/"
+image: "images/banners/2021/10/sc-univ_comp75.jpg"
 ---
 
 反転授業用ビデオを編集中、または検討中の人類の皆さん！もう「スキャ大」こと "Screencastify University" には入学しましたか？🏫🎬　無数にあるスクリーン録画アプリの中でも群を抜いて使いやすく、かつ高機能なScreencastifyの基礎と新機能が無料で学べるコースが用意されていて、修了すると認定証までもらえてしまいます。この機会にぜひ勉強しましょう！

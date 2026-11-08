@@ -13,6 +13,7 @@ tags:
   - "情報教育"
   - "業務効率化"
 url: "/chatgpt-prompt-hack/"
+image: "images/banners/2023/02/blog-banner-1280x720-1.jpg"
 ---
 
 やあみんな！今回は、ChatGPTをもっと上手に使う方法を紹介します！

@@ -21,6 +21,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/foxit-pdf-reader/"
+image: "images/banners/2021/08/Foxit-PDF.png"
 ---
 
 教師の皆さんこんにちは！🐪  

@@ -10,6 +10,7 @@ permalink: "https://laiken.net/ggrks/teaching-with-ai/"
 tags:
   - "AI"
 url: "/teaching-with-ai/"
+image: "images/banners/2023/09/blog-banner-1280x720-guide_comp75.jpg"
 ---
 
 ChatGPTで有名なOpenAI社が、教師向けのChatGPT活用のアイデアをブログで公開しました。プロンプトの例も収録されています。今回はこのOpenAIの記事をざっと日本語訳し、らいけんが解説を加えました。さっそく見ていきましょう！

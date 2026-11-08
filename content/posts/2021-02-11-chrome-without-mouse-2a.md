@@ -15,6 +15,7 @@ tags:
   - "時短"
   - "業務効率化"
 url: "/chrome-without-mouse-2a/"
+image: "images/banners/2021/02/chrome-without-mouse.jpg"
 ---
 
 ここから、いよいよGoogle Chromeを実際に操作する話です。以下に書いてある中で、もし知らないキーボードショートカットがあったら、とっても簡単ですから、ぜひ覚えてくださいね！

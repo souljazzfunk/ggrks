@@ -24,6 +24,7 @@ tags:
   - "情報教育"
   - "業務効率化"
 url: "/google-slides-annotation/"
+image: "images/banners/2021/09/google-slides-annotation_comp.jpg"
 ---
 
 教師の皆さん、今日もオンライン授業でマイクをミュートのまま喋ってしまって「こいつぁうっかりだぁ」ですか？🐫
