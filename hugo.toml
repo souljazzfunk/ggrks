@@ -1,0 +1,10 @@
+baseURL = "https://souljazzfunk.github.io/ggrks/"
+languageCode = "ja"
+title = "ほぼ週刊ググレカス"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "貴方もおググりになられてはいかがかしら"
+
+[markup.goldmark.renderer]
+  unsafe = true
