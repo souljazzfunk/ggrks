@@ -16,3 +16,10 @@ a { color: #0b57d0; }
 .body pre, .body code { font-family: ui-monospace, monospace; font-size: .9rem; }
 .body pre { overflow: auto; padding: .8rem; background: #f4f4f4; }
 .body blockquote { margin-left: 0; padding-left: 1rem; border-left: 3px solid #ccc; }
+.eyecatch { margin: 1rem 0 1.25rem; }
+.eyecatch img { max-width: 100%; height: auto; display: block; }
+.post-card { display: flex; gap: .9rem; align-items: flex-start; margin: .75rem 0; }
+.post-card .thumb { flex: 0 0 8.5rem; }
+.post-card .thumb img { width: 8.5rem; height: 4.8rem; object-fit: cover; display: block; background: #eee; }
+.post-card .card-text time { display: block; width: auto; margin-bottom: .15rem; }
+.post-card .card-text a { font-weight: 600; }

@@ -1,2 +1,74 @@
-<!doctype html><html lang=ja><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>1文字も打ち込まずに「まるごと」語彙インデックスからQuizlet問題を作成する · ほぼ週刊ググレカス</title><link rel=stylesheet href=/ggrks/css/site.css></head><body><header class=site-header><p class=site-title><a href=/ggrks/>ほぼ週刊ググレカス</a></p><p class=site-desc>貴方もおググりになられてはいかがかしら</p></header><main><article><h1>1文字も打ち込まずに「まるごと」語彙インデックスからQuizlet問題を作成する</h1><p class=meta><time datetime=2021-08-22T00:13:41>2021-08-22 00:13</time>
-· #ほぼ週刊ググレカス, EdTech</p><div class=body><p>ラクダの皆さん、きょうも冒険家を背中に乗せてうひゃひゃひゃーですか？🐫<br>さて、Quizletや単語帳アプリを使う時、わざわざ単語とその意味を打ち込んでいませんか？その手間、不要です！基本的に、QuizletやAnki、上級者ならKahoot!やQuizizzですら「1文字もタイプせずに」問題を作ることが可能です。今回は、「まるごと」公式サイトで教師用リソースとして公開されているデータを使って、QuizletやAnkiなどに利用できる基本的なデータの作成方法をご紹介します。</p><h2 id=元データを入手する>元データを入手する</h2><p>この手順が一番重要です。良質な元データが入手できれば、その後の作業が圧倒的に楽になるからです。「まるごと」の場合は、<a href=https://www.marugoto.org/teacher/resource/elementary1_c/>レベル別に語彙インデックスが公開されている</a>ので、これを使わない手はありませんね。</p><p><img src=https://laiken.net/ggrks/wp-content/uploads/2021/08/image-10.png alt></p><h3 id=excel形式をgoogleスプレッドシート形式に変換する>Excel形式をGoogleスプレッドシート形式に変換する</h3><p>お住いの地域や、宗教上の理由？とかで「Googleの各種サービスは使えない！」という事情がない限りは、ExcelよりもGoogleスプレッドシート（正式にはGoogle Sheets）に慣れておくのが良いでしょう。Excelにできないことが色々できますよ。<br>（参考：<a href=https://www.patreon.com/posts/52010041>Google Sheetsの方がExcelよりヤバイところ | Laiken (らいけん) on Patreon</a>）</p><h4 id=excelgoogle-sheets変換手順>Excel→Google Sheets変換手順</h4><ol><li>Googleドライブの設定を開いて、[Convert uploads]にチェックを入れる</li><li>まるごと公式サイトからダウンロードしたExcelファイルをGoogleドライブに放り込む</li></ol><p><img src=https://laiken.net/ggrks/wp-content/uploads/2021/08/image-19-1024x465.png alt></p><p>これでExcelファイルがGoogleスプレッドシートで開けるはずです。場合によっては、Google Sheets形式で保存する必要があるかもしれません。</p><p>以下の手順はGoogle Sheetsを利用している前提で書いていますが、もしかしたらExcelでも同様のことはできるかもしれません。</p><h2 id=初級編sheet1の内容を利用する>初級編：Sheet1の内容を利用する</h2><p>公式の英訳データがついているという意味で、Sheet1の内容は貴重です。学習者のL1や媒介語が英語ではない場合は自動翻訳すれば対応できますが、今回はその手順は割愛します。</p><p>ここでは最も基本的なデータの利用方法として、このB列とC列のデータをそのままQuizletに利用する手順をご紹介します。</p><p><img src=https://laiken.net/ggrks/wp-content/uploads/2021/08/image-12.png alt></p><p>下図のように、B〜C列の3行目から、最後まで選択します。</p><p><img src=https://laiken.net/ggrks/wp-content/uploads/2021/08/image-13.png alt></p><p>これをそのままQuizletに貼り付けると2000件もありますから、適度な問題数に絞りたいですね。例えば、「ランダムに並べ替えて上から10件だけをクイズに使う」というようなやり方が簡単です。</p><p>上記の選択範囲はそのままで、Dataメニューから"Randomize range"を実行すると、選択範囲がランダムに並べ替えられます。この中から、好きな範囲をコピーしましょう。</p><p><img src=https://laiken.net/ggrks/wp-content/uploads/2021/08/image-14.png alt></p><h2 id=quizletにインポートする>Quizletにインポートする</h2><p>まだ<a href=https://quizlet.com/>Quizlet</a>を使ったことがない人は、アカウントを作成しておいて下さい。アカウントがある人は、最上部の"Create"ボタンから"Study set"を選んで、新規のセットを作成します。</p><p><img src=https://laiken.net/ggrks/wp-content/uploads/2021/08/image-15.png alt></p><p>下記の画面で1問ずつ手入力することも可能ですが、そんな非効率で面倒なことは、できれば避けたいですね。小さな字で分かりにくいですが、&ldquo;Import from Word, Excel, Google Docs, etc.&ldquo;をクリックします。</p><p><img src=https://laiken.net/ggrks/wp-content/uploads/2021/08/image-16.png alt></p><p>ランダムに並べ替えた語彙インデックスから例えば10行、コピーしてQuizletのインポート画面に貼り付けます。</p><p><img src=https://laiken.net/ggrks/wp-content/uploads/2021/08/image-17-1024x583.jpg alt></p><p>この後は”Import”ボタンを押して、必要ならば修正等を加えて、セットを作成すれば完了です。</p><h2 id=もっと色々できるよ>もっと色々できるよ</h2><p>初級編としてSheet1のデータのみを使う方法を紹介しましたが、もう一つのシートにある情報を活用した、初出課や品詞ごとのデータ作成も比較的簡単にできます。機械翻訳を組み合わせる方法も今後紹介したいと思います。</p><h2 id=らいけんが作ったgoogleシートが欲しい>らいけんが作ったGoogleシートが欲しい！</h2><p>Google Sheetsのイケてる関数を駆使して、初出課や品詞ごとにフィルターしたり、各国語に自動翻訳したりできる「スーパーウルトラハンディまるごと→Quizlet変換シート」を作成しました。こちらのビデオで使い勝手がわかります。</p><p><a href="https://www.youtube.com/watch?v=F3AFEymgFf8">https://www.youtube.com/watch?v=F3AFEymgFf8</a></p><p>このシートは、らいけん公式サポーターの皆さんにお分けしてます！下記のリンクからどうぞ：<br><a href=https://www.patreon.com/posts/55085589>「まるごと」語彙インデックスからQuizletの問題を作成する | Laiken (らいけん) on Patreon</a></p></div></article></main></body></html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1文字も打ち込まずに「まるごと」語彙インデックスからQuizlet問題を作成する · ほぼ週刊ググレカス</title>
+<link rel="stylesheet" href="/ggrks/css/site.css">
+</head>
+<body>
+<header class="site-header">
+<p class="site-title"><a href="/ggrks/">ほぼ週刊ググレカス</a></p>
+<p class="site-desc">貴方もおググりになられてはいかがかしら</p>
+</header>
+<main>
+
+<article>
+<h1>1文字も打ち込まずに「まるごと」語彙インデックスからQuizlet問題を作成する</h1>
+<p class="meta">
+<time datetime="2021-08-22T00:13:41">2021-08-22 00:13</time>
+ · #ほぼ週刊ググレカス, EdTech
+</p>
+
+<figure class="eyecatch">
+<img src="/ggrks/images/banners/2021/08/marugoto-quizlet.png" alt="1文字も打ち込まずに「まるごと」語彙インデックスからQuizlet問題を作成する">
+</figure>
+
+<div class="body">
+<p>ラクダの皆さん、きょうも冒険家を背中に乗せてうひゃひゃひゃーですか？🐫<br>
+さて、Quizletや単語帳アプリを使う時、わざわざ単語とその意味を打ち込んでいませんか？その手間、不要です！基本的に、QuizletやAnki、上級者ならKahoot!やQuizizzですら「1文字もタイプせずに」問題を作ることが可能です。今回は、「まるごと」公式サイトで教師用リソースとして公開されているデータを使って、QuizletやAnkiなどに利用できる基本的なデータの作成方法をご紹介します。</p>
+<h2 id="元データを入手する">元データを入手する</h2>
+<p>この手順が一番重要です。良質な元データが入手できれば、その後の作業が圧倒的に楽になるからです。「まるごと」の場合は、<a href="https://www.marugoto.org/teacher/resource/elementary1_c/">レベル別に語彙インデックスが公開されている</a>ので、これを使わない手はありませんね。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2021/08/image-10.png" alt=""></p>
+<h3 id="excel形式をgoogleスプレッドシート形式に変換する">Excel形式をGoogleスプレッドシート形式に変換する</h3>
+<p>お住いの地域や、宗教上の理由？とかで「Googleの各種サービスは使えない！」という事情がない限りは、ExcelよりもGoogleスプレッドシート（正式にはGoogle Sheets）に慣れておくのが良いでしょう。Excelにできないことが色々できますよ。<br>
+（参考：<a href="https://www.patreon.com/posts/52010041">Google Sheetsの方がExcelよりヤバイところ | Laiken (らいけん) on Patreon</a>）</p>
+<h4 id="excelgoogle-sheets変換手順">Excel→Google Sheets変換手順</h4>
+<ol>
+<li>Googleドライブの設定を開いて、[Convert uploads]にチェックを入れる</li>
+<li>まるごと公式サイトからダウンロードしたExcelファイルをGoogleドライブに放り込む</li>
+</ol>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2021/08/image-19-1024x465.png" alt=""></p>
+<p>これでExcelファイルがGoogleスプレッドシートで開けるはずです。場合によっては、Google Sheets形式で保存する必要があるかもしれません。</p>
+<p>以下の手順はGoogle Sheetsを利用している前提で書いていますが、もしかしたらExcelでも同様のことはできるかもしれません。</p>
+<h2 id="初級編sheet1の内容を利用する">初級編：Sheet1の内容を利用する</h2>
+<p>公式の英訳データがついているという意味で、Sheet1の内容は貴重です。学習者のL1や媒介語が英語ではない場合は自動翻訳すれば対応できますが、今回はその手順は割愛します。</p>
+<p>ここでは最も基本的なデータの利用方法として、このB列とC列のデータをそのままQuizletに利用する手順をご紹介します。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2021/08/image-12.png" alt=""></p>
+<p>下図のように、B〜C列の3行目から、最後まで選択します。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2021/08/image-13.png" alt=""></p>
+<p>これをそのままQuizletに貼り付けると2000件もありますから、適度な問題数に絞りたいですね。例えば、「ランダムに並べ替えて上から10件だけをクイズに使う」というようなやり方が簡単です。</p>
+<p>上記の選択範囲はそのままで、Dataメニューから&quot;Randomize range&quot;を実行すると、選択範囲がランダムに並べ替えられます。この中から、好きな範囲をコピーしましょう。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2021/08/image-14.png" alt=""></p>
+<h2 id="quizletにインポートする">Quizletにインポートする</h2>
+<p>まだ<a href="https://quizlet.com/">Quizlet</a>を使ったことがない人は、アカウントを作成しておいて下さい。アカウントがある人は、最上部の&quot;Create&quot;ボタンから&quot;Study set&quot;を選んで、新規のセットを作成します。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2021/08/image-15.png" alt=""></p>
+<p>下記の画面で1問ずつ手入力することも可能ですが、そんな非効率で面倒なことは、できれば避けたいですね。小さな字で分かりにくいですが、&ldquo;Import from Word, Excel, Google Docs, etc.&ldquo;をクリックします。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2021/08/image-16.png" alt=""></p>
+<p>ランダムに並べ替えた語彙インデックスから例えば10行、コピーしてQuizletのインポート画面に貼り付けます。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2021/08/image-17-1024x583.jpg" alt=""></p>
+<p>この後は”Import”ボタンを押して、必要ならば修正等を加えて、セットを作成すれば完了です。</p>
+<h2 id="もっと色々できるよ">もっと色々できるよ</h2>
+<p>初級編としてSheet1のデータのみを使う方法を紹介しましたが、もう一つのシートにある情報を活用した、初出課や品詞ごとのデータ作成も比較的簡単にできます。機械翻訳を組み合わせる方法も今後紹介したいと思います。</p>
+<h2 id="らいけんが作ったgoogleシートが欲しい">らいけんが作ったGoogleシートが欲しい！</h2>
+<p>Google Sheetsのイケてる関数を駆使して、初出課や品詞ごとにフィルターしたり、各国語に自動翻訳したりできる「スーパーウルトラハンディまるごと→Quizlet変換シート」を作成しました。こちらのビデオで使い勝手がわかります。</p>
+<p><a href="https://www.youtube.com/watch?v=F3AFEymgFf8">https://www.youtube.com/watch?v=F3AFEymgFf8</a></p>
+<p>このシートは、らいけん公式サポーターの皆さんにお分けしてます！下記のリンクからどうぞ：<br>
+<a href="https://www.patreon.com/posts/55085589">「まるごと」語彙インデックスからQuizletの問題を作成する | Laiken (らいけん) on Patreon</a></p>
+
+</div>
+</article>
+
+</main>
+</body>
+</html>

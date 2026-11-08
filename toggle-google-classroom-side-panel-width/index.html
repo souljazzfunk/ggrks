@@ -1,2 +1,48 @@
-<!doctype html><html lang=ja><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Google Classroomで採点時のコメント欄を広くする · ほぼ週刊ググレカス</title><link rel=stylesheet href=/ggrks/css/site.css></head><body><header class=site-header><p class=site-title><a href=/ggrks/>ほぼ週刊ググレカス</a></p><p class=site-desc>貴方もおググりになられてはいかがかしら</p></header><main><article><h1>Google Classroomで採点時のコメント欄を広くする</h1><p class=meta><time datetime=2022-12-27T12:11:52>2022-12-27 12:11</time>
-· #ほぼ週刊ググレカス, EdTech</p><div class=body><p>Google Classroomで提出物の管理をしている皆さん、コメント欄の幅が狭すぎると思いませんか？今回はイライラを解消すべく、簡単なブックマークレットを書いてみましたのでご紹介します。</p><h2 id=google-classroom採点画面のコメント欄の幅通常時と改善後>Google Classroom採点画面のコメント欄の幅：通常時と改善後</h2><p>Google Classroomで採点する時、右側のサイドパネルはこのくらいの幅しかありませんね。</p><p><img src=https://laiken.net/ggrks/wp-content/uploads/2022/12/image-2-1024x576.png alt></p><p>単なるCSS上の問題だったので、ブックマークレットを書きました。こうなります：</p><p><img src=https://laiken.net/ggrks/wp-content/uploads/2022/12/image-3-1024x428.png alt></p><h2 id=この機能の使い方>この機能の使い方</h2><p><img src=https://laiken.net/ggrks/wp-content/uploads/2021/03/Screen-Recording-2021-03-11-at-3.49.59-PM-00.00.00.000-00.00.02.052.gif alt></p><ol><li>[Toggle Side Panel Width](javascript:(function() %7Bvar e%3Ddocument.getElementsByClassName(%27uoiRud%27)%5B0%5D%3Be.style.width%3D(e.style.width!%3D%27512px%27)%3F%27512px%27:%27256px%27%3B%7D)()%3B) ←このリンクをブックマークにドラッグする！</li><li>Google Classroomの採点画面を開く</li><li>ブックマークレットをクリックする。幅がひろーい！</li><li>もう一度クリックすると、もとに戻ります。</li></ol></div></article></main></body></html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Google Classroomで採点時のコメント欄を広くする · ほぼ週刊ググレカス</title>
+<link rel="stylesheet" href="/ggrks/css/site.css">
+</head>
+<body>
+<header class="site-header">
+<p class="site-title"><a href="/ggrks/">ほぼ週刊ググレカス</a></p>
+<p class="site-desc">貴方もおググりになられてはいかがかしら</p>
+</header>
+<main>
+
+<article>
+<h1>Google Classroomで採点時のコメント欄を広くする</h1>
+<p class="meta">
+<time datetime="2022-12-27T12:11:52">2022-12-27 12:11</time>
+ · #ほぼ週刊ググレカス, EdTech
+</p>
+
+<figure class="eyecatch">
+<img src="/ggrks/images/banners/2022/12/Google-Classroom-Side-Panel.png" alt="Google Classroomで採点時のコメント欄を広くする">
+</figure>
+
+<div class="body">
+<p>Google Classroomで提出物の管理をしている皆さん、コメント欄の幅が狭すぎると思いませんか？今回はイライラを解消すべく、簡単なブックマークレットを書いてみましたのでご紹介します。</p>
+<h2 id="google-classroom採点画面のコメント欄の幅通常時と改善後">Google Classroom採点画面のコメント欄の幅：通常時と改善後</h2>
+<p>Google Classroomで採点する時、右側のサイドパネルはこのくらいの幅しかありませんね。</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2022/12/image-2-1024x576.png" alt=""></p>
+<p>単なるCSS上の問題だったので、ブックマークレットを書きました。こうなります：</p>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2022/12/image-3-1024x428.png" alt=""></p>
+<h2 id="この機能の使い方">この機能の使い方</h2>
+<p><img src="https://laiken.net/ggrks/wp-content/uploads/2021/03/Screen-Recording-2021-03-11-at-3.49.59-PM-00.00.00.000-00.00.02.052.gif" alt=""></p>
+<ol>
+<li>[Toggle Side Panel Width](javascript:(function() %7Bvar e%3Ddocument.getElementsByClassName(%27uoiRud%27)%5B0%5D%3Be.style.width%3D(e.style.width!%3D%27512px%27)%3F%27512px%27:%27256px%27%3B%7D)()%3B) ←このリンクをブックマークにドラッグする！</li>
+<li>Google Classroomの採点画面を開く</li>
+<li>ブックマークレットをクリックする。幅がひろーい！</li>
+<li>もう一度クリックすると、もとに戻ります。</li>
+</ol>
+
+</div>
+</article>
+
+</main>
+</body>
+</html>
