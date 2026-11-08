@@ -1,4 +1,4 @@
-baseURL = "https://souljazzfunk.github.io/ggrks/"
+baseURL = "https://laiken.net/ggrks/"
 languageCode = "ja"
 title = "ほぼ週刊ググレカス"
 disableKinds = ["taxonomy", "term"]
